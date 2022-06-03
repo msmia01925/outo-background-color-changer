@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    animation: sajib 10s linear infinite;
+    display: grid;
+    place-items: center;
+    
+}
+@keyframes sajib {
+    0%{
+        background-color: orange;
+    }
+    20%{
+        background-color: rgb(13, 152, 216);
+    }
+    40%{
+        background-color: rgb(75, 17, 209);
+    }
+    60%{
+        background-color: rgb(153, 15, 123);
+    }
+    80%{
+        background-color: rgba(235, 61, 61, 0.938);
+    }
+    100%{
+        background-color: orange;
+    }
+    
+}
+h1{
+    font-size: 40px;
+    color: rgb(109, 1, 1);
+}
